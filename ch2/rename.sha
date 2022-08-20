@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script will rename 1.* to 2.*
+
+num=0
+for FILE in *.sh
+do
+	sudo mv 1.$num.sh 2.$num.sh
+	num=$((num+1))
+	echo "$FILE"
+done
+	
