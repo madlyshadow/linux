@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Develop a script that prompts the user for a number n and then creates n text files in the current directory.
+# Consider the solution from the previous challenge. Add a testing condition so that the user enters a positive integer less than 100.
 
 read -p "Enter value of files you want to create:" n
 
